@@ -55,11 +55,9 @@ body {
 }
 
 #root {
-  width: 1126px;
-  max-width: 100%;
-  margin: 0 auto;
-  text-align: center;
-  border-inline: 1px solid var(--border);
+  width: 100%; /* Cambia 1126px por 100% */
+  /* margin: 0 auto;  <-- Ya no es necesario si es 100% */
+  border-inline: none; /* Quita los bordes laterales si no los quieres */
   min-height: 100svh;
   display: flex;
   flex-direction: column;
